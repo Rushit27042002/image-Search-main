@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snap-search</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>Snap</span>Search</h1>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="ri-close-circle-line fas" onclick="closeMenu()" id="close"></i>
+                </ul>
+                <i class="ri-menu-line" onclick="openMenu()" id="close"></i>
+            </nav>
+            <div class="header-text">
+                <h1 id="images">snap search</h1>
+                <form action="" id="search-form">
+                    <input type="text" name="" id="search-box" class="btn" placeholder="Search here">
+                    <button id="search-btn"><i class="ri-search-2-line"></i>Search</button>
+                </form>
+                <div id="search-Result"></div>
+                <button id="show-more-btn">Show More</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="Contact">
+        <div class="container">
+          <div class="ContactRow">
+            <div class="Contact-left">
+              <h1 class="sub-titel contactMe">Contact Me</h1>
+              <p><i class="ri-mail-line"></i> rushitsuthar70917@gmail.com</p>
+              <p><i class="ri-phone-line"></i> +91 9054160864 | +91 8160756170</p>
+              <div class="social-icons">
+                <a href="#" target="_blank"><i class="ri-github-fill"></i></a>
+                <a href="#" target="_blank"><i
+                    class="ri-linkedin-box-fill"></i></a>
+                <a href="#" target="_blank"><i
+                    class="ri-instagram-line"></i></a>
+                <a href="#" target="_blank"><i
+                    class="ri-facebook-circle-fill"></i></a>
+                <a href="#" target="_blank"><i
+                    class="ri-twitter-x-fill"></i></a>
+              </div>
+            </div>
+            <div class="Contact-Right">
+              <form action="" name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg" style="margin-top: -40px;"></span>
+            </div>
+          </div>
+        </div>
+        <div class="conpyright">Copyright &copy; snap search | Made with <i class="ri-heart-fill"></i> by Rushit Suthar</div>
+      </div>
+    <script src="sript.js"></script>
+</body>
+
+</html>
